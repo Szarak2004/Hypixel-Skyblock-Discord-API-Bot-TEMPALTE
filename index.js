@@ -67,6 +67,6 @@ client.on("message", async (message) => {
             console.log("ERROR: " + err);
           });
       }
-    }, 1000);
+    }, 5000);
   }
 });
